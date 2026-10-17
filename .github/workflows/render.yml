@@ -7,6 +7,10 @@ on:
 
 name: Render
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   render:
     runs-on: ubuntu-latest
